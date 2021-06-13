@@ -1,7 +1,7 @@
+    /* HEADER */
 .header_wrap_top{
     background: #20242D;
 }
-
 .header_address {
     font-size: 12px;
     font-style: normal;
@@ -11,7 +11,6 @@
     text-align: left;
     color: #FFFFFF;
 }
-
 .header_contact_mail a{
     font-size: 12px;
     font-style: normal;
@@ -21,7 +20,6 @@
     text-align: left;
     color: #FFFFFF;
 }
-
 .header_contact_tel a{
     font-size: 12px;
     font-style: normal;
@@ -31,11 +29,10 @@
     text-align: right;
     color: #FFFFFF;
     }
-
 .header_wrap_bottom {
     background: #FFFFFF;
 }
-.navigation_list a{
+.header_navigation_list a{
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -47,7 +44,10 @@
 .navigation_list a:hover {
     color: #FF7129;
 }
+    /* /HEADER */
 
+
+    /* MAIN */
 .start_screen_bgtext_left {
     font-size: 120px;
     font-style: normal;
@@ -82,3 +82,187 @@
     text-align: center;
     color: #FFFFFF;
 }
+.btn {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main_info_bg_text {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main_info_title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.main_info_paragraph {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+    /* /MAIN */
+
+
+    /* O NAS */
+.o_nas_title h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.o_nas_title p {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.o_nas_info p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+    /* /O NAS */
+
+
+    /* PROJEKTY */
+.bg_projekty_text {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.projekty_title h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.projekty_counter_left {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.projekty_counter_right {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7B7E85;
+}
+    /* /PROJEKTY */
+
+
+    /* KONTAKT */
+.kontakt_main_title p {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.kontakt_main_title h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.kontakt_main_adres p,
+.kontakt_main_mail p,
+.kontakt_main_tel p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7B7E85;
+}
+.kontakt_main_adres a,
+.kontakt_main_mail a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+.kontakt_main_tel a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+    /* /KONTAKT */
+
+
+    /* FOOTER */
+.footer .footer_wrap_top,
+.footer .footer_wrap_bottom {
+    background: #20242D;
+}
+.footer_navigation_list a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer_wrap_bottom a{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7B7E85;
+}
+    /* /FOOTER */
