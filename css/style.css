@@ -1,6 +1,23 @@
-    /* HEADER */
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* HEADER */
 .header_wrap_top{
     background: #20242D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
 .header_address {
     font-size: 12px;
@@ -29,6 +46,16 @@
     text-align: right;
     color: #FFFFFF;
     }
+.header_contact {
+    display: flex;
+    align-items: center;
+}
+.header_contact li {
+    margin-right: 57px;
+}
+.header_contact li:last-child {
+    margin-right: 0;
+}
 .header_wrap_bottom {
     background: #FFFFFF;
 }
