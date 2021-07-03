@@ -34,7 +34,13 @@ button {
     letter-spacing: 0em;
     text-align: center;
     width: 187px;
+    transition: all ease 0.3s;
+    cursor: pointer;
 }
+.btn:hover {
+    background: #D35E22;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -42,6 +48,12 @@ ul {
 }
 a {
     text-decoration: none;
+}
+a:focus{
+    opacity: 0.5;
+}
+.btn:focus {
+    opacity: 0.5;
 }
 .container {
     max-width: 1600px;
